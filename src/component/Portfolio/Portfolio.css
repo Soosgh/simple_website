@@ -1,0 +1,48 @@
+.portfolio-card {
+    border: none;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.portfolio-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-img:hover {
+    transform: scale(1.05);
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+
+
+.line {
+    width: 120px;
+    height: 8px;
+    background-color: #02213f;
+    border-radius: 10px;
+}
+
+.star {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #02213f;
+}
+
+@media (max-width: 767px) {
+    .line {
+        width: 15%;
+    }
+
+    .star {
+        font-size: 1.5rem;
+    }
+}

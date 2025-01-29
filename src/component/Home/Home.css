@@ -1,0 +1,73 @@
+/* Fullscreen Centered Background */
+.home-container {
+    background-color: #62d6b1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+/* Profile Image - Now 3× Bigger */
+.profile-container {
+    width: 300px;
+    /* 3× original size */
+    height: 300px;
+
+    margin-top: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.profile-img {
+    width: 85%;
+    height: 85%;
+
+}
+
+/* Title - Bigger & Bolder */
+.title {
+    font-size: 4rem;
+    /* Equivalent to display-2 */
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Divider with Thick Lines & Star */
+.dividerr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.linee {
+    width: 120px;
+    /* Adjust width for better visibility */
+    height: 8px;
+    /* Thick line */
+    background-color: white;
+    border-radius: 10px;
+    /* Slight round edges */
+}
+
+.starr {
+    font-size: 3rem;
+    /* Bigger star */
+    font-weight: bold;
+    color: white;
+}
+
+/* Subtitle - Bigger & More Spacing */
+.subtitle {
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 220px;
+}
