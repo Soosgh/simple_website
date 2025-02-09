@@ -14,7 +14,7 @@ const portfolioItems = [
 
 const Portfolio = () => {
     return (
-        <Container className="text-center py-5  pb-5">
+        <Container fluid className="text-center py-5  pb-5">
             <h2 className=" fw-bold text-uppercase display-4" style={{ color: '#02213f' }}>Portfolio</h2>
             <div className="divider">
                 <div className="line"></div>
